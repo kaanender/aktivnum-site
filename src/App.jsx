@@ -1,3 +1,25 @@
+// AKTIVNUM — Page Maintenance uniquement
+import React from "react";
+
+export default function AktivnumSite() {
+  return (
+    <div className="min-h-screen bg-white flex items-center justify-center text-center px-6">
+      <div className="space-y-5">
+        <img src="/ACTIVNUM.png" alt="Aktivnum Logo" className="h-16 mx-auto" />
+        <h1 className="text-xl font-semibold">Site en construction — ouverture bientôt.</h1>
+        <a
+          href="https://wa.me/33783484835"
+          target="_blank"
+          className="inline-block px-5 py-3 rounded-xl bg-neutral-900 text-white hover:opacity-90 transition"
+        >
+          Contact WhatsApp
+        </a>
+      </div>
+    </div>
+  );
+}
+
+
 // AKTIVNUM — Landing complète (React + Tailwind)
 // Style : Blanc pro, focus B2C + B2B, Île-de-France + dépannage à distance
 import React from "react";
@@ -122,7 +144,7 @@ export default function AktivnumSite() {
             <div className="rounded-2xl border border-neutral-200 hover:border-[#ff914d] transition-colors p-6 bg-white hover:bg-neutral-50 text-neutral-900 transition-colors hover:bg-[#e57d3c] transition-colors">
               <h3 className="text-lg font-semibold">Accès & prix</h3>
               <p className="text-sm text-neutral-900 mt-2">Pack disponible en téléchargement (PDF gratuit) ou en version complète (PDF + vidéo + checklist) à prix accessible.</p>
-              <a href="#" className="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-xl hover:bg-[#e57d3c] hover:bg-[#e57d3c] text-neutral-900 transition-colors hover:bg-[#e57d3c] transition-colors text-neutral-100">Télécharger le guide</a>
+              <a href="#" className="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white hover:bg-neutral-500 text-neutral-900 transition-colors hover:bg-[#e57d3c] transition-colors text-neutral-1000">Télécharger le guide</a>
             </div>
           </div>
         </div>
