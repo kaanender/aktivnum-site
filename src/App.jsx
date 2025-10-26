@@ -1,12 +1,10 @@
-// AKTIVNUM — Page Maintenance uniquement
-import React from "react";
-
-export default function AktivnumSite() {
+export default function App() {
   return (
-    <div className="min-h-screen bg-white flex items-center justify-center text-center px-6">
-      <div className="space-y-5">
-        <img src="/ACTIVNUM.png" alt="Aktivnum Logo" className="h-16 mx-auto" />
-        <h1 className="text-xl font-semibold">Site en construction — ouverture bientôt.</h1>
+    <div className="fixed inset-0 bg-white/70 backdrop-blur-md flex items-center justify-center text-center p-6">
+      <div className="bg-white/90 px-6 py-5 rounded-xl shadow space-y-3 max-w-sm">
+        <img src="/ACTIVNUM.png" className="h-14 mx-auto" />
+        <h1 className="text-xl font-semibold">Maintenance en cours</h1>
+        <p className="text-sm text-neutral-700">Le site AKTIVNUM est en préparation.</p>
         <a
           href="https://wa.me/33783484835"
           target="_blank"
